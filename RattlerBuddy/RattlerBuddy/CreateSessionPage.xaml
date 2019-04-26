@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.CreateSessionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="CREATE A SESSION" FontSize="Large" 
+                   HorizontalTextAlignment="Center"
+                   Margin="0,40"/>
+            
+            <Entry Placeholder="Choose a Subject" Margin="20,10,20,0"
+                   x:Name="className"/>
+            
+            <DatePicker x:Name="datePicker" Margin="20,10,20,0"/>
+            <TimePicker x:Name="timePicker" Margin="20,10,20,0"/>
+            
+            <Entry Placeholder="Choose a Location" Margin="20,10,20,0"
+                   x:Name="locationName"/>
+            
+            
+            <Button x:Name="createSessionButton" Text="Create Session" 
+                Clicked="CreateSessionButton_Clicked"
+                Style="{StaticResource greenButton}"
+                Margin="30,50,30,0" ></Button>
+            
+            <Button x:Name="resetButton" Text="Reset Requirements"
+                Clicked="ResetButton_Clicked"
+                Margin="30,0"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

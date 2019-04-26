@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.HomePage">
+   
+    <MasterDetailPage.Master>
+        
+        <ContentPage Padding="10" BackgroundColor="Black" Title="Master">
+            <ContentPage.Content>
+
+                <StackLayout Margin="5,30,5,5">
+                       <Label x:Name="userName" TextColor="White" FontSize="Large"/>
+                    <Label x:Name="userEmail" TextColor="White" FontSize="Large" />
+                    
+                    <Button Text="FEED" Style="{StaticResource detailButton}" x:Name="FeedDetailButton" Clicked="TutoringDetailButton_Clicked"/>
+                    <Button Text="TUTORING" Style="{StaticResource detailButton}" x:Name="TutoringDetailButton" Clicked="TutoringDetailButton_Clicked"/>
+                    <Button Text="MESSAGES" Style="{StaticResource detailButton}" x:Name="MessagesDetailButton" Clicked="MessageDetailButton_Clicked"/>
+                    <Button Text="NOTIFICATIONS" Style="{StaticResource detailButton}" x:Name="NotificationsDetailButton"/>
+                    <Button Text="SEARCH" Style="{StaticResource detailButton}" x:Name="SearchDetailButton"/>
+                    <Button Text="SETTINGS" Style="{StaticResource detailButton}" x:Name="SettingsDetailButton"/>
+                    <Button Text="LOGOUT" Style="{StaticResource detailButton}" x:Name="LogOutDetailButton" Clicked="LogOutDetailButton_Clicked"/>
+                    
+                    
+                    
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>    
+    
+    
+     <MasterDetailPage.Detail>
+        
+        <ContentPage Padding="10" BackgroundColor="White">
+            <ContentPage.Content>
+                <StackLayout Margin="20,40,20,0">
+                    
+                   <Button Text="Ξ" FontSize="25" Clicked="Handle_Clicked" TextColor="Black"
+                           HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                    <Label x:Name="sessionCountLabel" HorizontalOptions="Center" FontAttributes="Bold" Text="--"/>
+                    
+                    <Label Text="Upcoming Sessions" HorizontalOptions="Center" Margin="0,0,20,0"/>
+                    
+                     <ListView x:Name="newsFeedListView">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                    <TextCell Text="{Binding Class_Name}" Detail="{Binding Location}" CommandParameter="{Binding}"  Tapped="Handle_Tapped"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    
+                </StackLayout>
+            </ContentPage.Content>
+             
+            
+        </ContentPage>
+    </MasterDetailPage.Detail>    
+   
+</MasterDetailPage>

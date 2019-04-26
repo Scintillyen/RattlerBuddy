@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="famuGreen">#20833F</Color>
+            <Color x:Key="famuOrange">#C5420C</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+            <Color x:Key="blackColor">#000000</Color>
+            <Color x:Key="grayColor">#F3F9FD</Color>
+            <Color x:Key="silverColor">#F3F9FD</Color>
+            
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource famuOrange}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+            
+            <Style TargetType="Button" x:Name="greenButton" x:Key="greenButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource famuGreen}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+            
+            <Style TargetType="Button" x:Name="detailButton" x:Key="detailButton">
+                <Setter Property="BackgroundColor"  Value="{StaticResource blackColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+            
+            <Style TargetType="ContentPage" x:Key="default">
+                <Setter Property="BackgroundColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

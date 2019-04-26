@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:RattlerBuddy" x:Class="RattlerBuddy.MainPage"
+             >
+    <StackLayout VerticalOptions="Center"
+                 Margin="20,0,20,0">
+        <!-- Place new controls here -->
+        <Entry x:Name="emailEntry" Keyboard="Email" Placeholder="E-mail address"
+                />
+       
+         <Entry x:Name="passwordEntry" IsPassword="true" 
+               Placeholder="Password" />
+      
+        <Button x:Name="loginButton" Text="Log In" 
+                Clicked="LoginButton_Clicked"
+                Margin="30,50,30,0" ></Button>
+        <Button x:Name="registerButton" Text="Create Account" 
+                Clicked="RegisterButton_Clicked"
+                Style="{StaticResource greenButton}"
+                Margin="30,0"></Button>
+    </StackLayout>
+</ContentPage>

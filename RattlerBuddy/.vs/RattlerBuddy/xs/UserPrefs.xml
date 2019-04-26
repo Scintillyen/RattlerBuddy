@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{CE525193-5A94-49EE-90D1-08090B190006}|Default">
+  <MonoDevelop.Ide.ItemProperties.RattlerBuddy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.744257C2-4049-4E18-B761-7BCABCEB1E73" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RattlerBuddy/ChatLogPage.xaml">
+    <Files>
+      <File FileName="RattlerBuddy/ChatLogPage.xaml.cs" Line="27" Column="33" />
+      <File FileName="RattlerBuddy/ChatLogPage.xaml" Line="22" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RattlerBuddy.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.pixel_xl" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

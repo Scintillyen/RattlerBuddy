@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.TutoringHubPage">
+    <ContentPage.Content>
+        <StackLayout Margin="5,70,5,5">
+           
+            <Button x:Name="findSessionButton" Text="Find Session" 
+                Clicked="FindSessionButton_Clicked"
+                Style="{StaticResource greenButton}"
+                Margin="30,50,30,0"></Button>
+            
+             <Button x:Name="createSessionButton" Text="Create Session" 
+                Clicked="CreateSessionButton_Clicked"
+                Margin="30,50,30,0" ></Button>
+           </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

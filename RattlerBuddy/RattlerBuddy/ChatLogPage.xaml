@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.ChatLogPage">
+ <ContentPage.Content>
+        <StackLayout >
+        
+            <Button BorderRadius="50" TextColor="{StaticResource whiteColor}" Text="✚" Clicked="NewMessage_Clicked" 
+                    WidthRequest="50" HorizontalOptions="End" FontSize="Large" Margin="10"/>
+            <Label Text="Messages" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
+        
+        <ListView x:Name="chatLogListView" >
+            <ListView.ItemTemplate>
+                  <DataTemplate>
+                    <TextCell Text="{Binding Reciever_Email}" 
+                              Tapped="Handle_Tapped"/>
+                  </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            
+   </StackLayout>
+  </ContentPage.Content>  
+</ContentPage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.NewMessagePage">
+    <ContentPage.Content>
+        <StackLayout Margin="30,50,30,30">
+        <Label Text="New Message" HorizontalOptions="Center"/>
+            <Entry x:Name="recieverEntry" Margin="20,60,20,20" Placeholder="Name..."/>
+            <Entry x:Name="messageEntry" Margin="20" Placeholder="Write a message..." HeightRequest="300"/>
+            <Button x:Name="sendButton" Text="Send" WidthRequest="100" HorizontalOptions="Center" Clicked="sendButton_Clicked"/>
+         </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
