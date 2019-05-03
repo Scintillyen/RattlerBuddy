@@ -20,8 +20,8 @@ namespace RattlerBuddy
             bool isMessageEmpty = string.IsNullOrEmpty(messageEntry.Text);
             int recieverID = -1;
 
-            
-                if (!isRecieverEmpty && !isMessageEmpty)
+
+            if (!isRecieverEmpty && !isMessageEmpty)
             {
 
 
@@ -35,7 +35,7 @@ namespace RattlerBuddy
                     }
 
                 }
-
+                if (recieverID != -1) { 
                 Message message = new Message()
                 {
                     Sender_ID = App.User_ID,
@@ -52,6 +52,8 @@ namespace RattlerBuddy
                 }
 
                 Navigation.PushAsync(new ChatLogPage());
+            }
+                else { DisplayAlert("Failure", "User not found!", "Ok!"); }
             }
             else
             {

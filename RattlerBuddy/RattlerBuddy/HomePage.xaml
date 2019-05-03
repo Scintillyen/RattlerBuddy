@@ -14,7 +14,7 @@
                     <Button Text="TUTORING" Style="{StaticResource detailButton}" x:Name="TutoringDetailButton" Clicked="TutoringDetailButton_Clicked"/>
                     <Button Text="MESSAGES" Style="{StaticResource detailButton}" x:Name="MessagesDetailButton" Clicked="MessageDetailButton_Clicked"/>
                     <Button Text="NOTIFICATIONS" Style="{StaticResource detailButton}" x:Name="NotificationsDetailButton"/>
-                    <Button Text="SEARCH" Style="{StaticResource detailButton}" x:Name="SearchDetailButton"/>
+                    <Button Text="SEARCH" Style="{StaticResource detailButton}" x:Name="SearchDetailButton" Clicked="SearchDetailButton_Clicked"/>
                     <Button Text="SETTINGS" Style="{StaticResource detailButton}" x:Name="SettingsDetailButton"/>
                     <Button Text="LOGOUT" Style="{StaticResource detailButton}" x:Name="LogOutDetailButton" Clicked="LogOutDetailButton_Clicked"/>
                     

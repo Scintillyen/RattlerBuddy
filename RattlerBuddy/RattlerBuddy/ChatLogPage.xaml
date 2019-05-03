@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.ChatLogPage">
  <ContentPage.Content>
-        <StackLayout >
+        <StackLayout>
         
             <Button BorderRadius="50" TextColor="{StaticResource whiteColor}" Text="✚" Clicked="NewMessage_Clicked" 
                     WidthRequest="50" HorizontalOptions="End" FontSize="Large" Margin="10"/>
@@ -11,7 +11,9 @@
             <ListView.ItemTemplate>
                   <DataTemplate>
                     <TextCell Text="{Binding Reciever_Email}" 
-                              Tapped="Handle_Tapped"/>
+                              Detail="{Binding Message_Text}"
+                              Tapped="Handle_Tapped"
+                              CommandParameter="{Binding}"/>
                   </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

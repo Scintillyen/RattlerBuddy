@@ -40,7 +40,11 @@ namespace RattlerBuddy
         {
             var info = (TextCell)sender;
             TutorSession session  = (TutorSession)info.CommandParameter;
-            Navigation.PushAsync(new DisplaySessionPage(session));
+            string tutorName = session.Tutor_FName + " " + session.Tutor_LName;
+            string displayText = session.Class_Name + "\n" + session.Location + "\n" + session.Meeting_Time +"\n"+tutorName;
+            DisplayAlert("Session Information", String.Format("{0,-10}", displayText), "Ok");
+           
+            //Navigation.PushAsync(new DisplaySessionPage(session));
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
@@ -65,6 +69,11 @@ namespace RattlerBuddy
         void MessageDetailButton_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new ChatLogPage());
+        }
+
+        void SearchDetailButton_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new FindSessionPage());
         }
 
     }

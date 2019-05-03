@@ -1128,11 +1128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.Android/RattlerBuddy.Android.csproj",
+      "projectUniqueName": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.Android/RattlerBuddy.Android.csproj",
       "projectName": "RattlerBuddy.Android",
-      "projectPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.Android/RattlerBuddy.Android.csproj",
+      "projectPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.Android/RattlerBuddy.Android.csproj",
       "packagesPath": "/Users/scintillyen/.nuget/packages/",
-      "outputPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.Android/obj",
+      "outputPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/scintillyen/.config/NuGet/NuGet.Config"
@@ -1146,8 +1146,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj": {
-              "projectPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj"
+            "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj": {
+              "projectPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj"
             }
           }
         }

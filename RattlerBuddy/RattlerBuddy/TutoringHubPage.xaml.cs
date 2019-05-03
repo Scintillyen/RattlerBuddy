@@ -15,7 +15,7 @@ namespace RattlerBuddy
         void FindSessionButton_Clicked(object sender, System.EventArgs e)
         {
 
-            Navigation.PushAsync(new CreateSessionPage());
+            Navigation.PushAsync(new FindSessionPage());
 
         }
 

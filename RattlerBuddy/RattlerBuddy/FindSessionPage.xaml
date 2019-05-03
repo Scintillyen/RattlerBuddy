@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RattlerBuddy.FindSessionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="searchBar" TextChanged="Handle_TextChanged" Placeholder="Search by Class"></SearchBar>
+            <ListView x:Name="sessionListView" >
+               <ListView.ItemTemplate>
+                    <DataTemplate>
+                  <TextCell Text="{Binding Class_Name}" Detail="{Binding Location}" CommandParameter="{Binding}"  Tapped="Handle_Tapped"/>
+                    </DataTemplate>
+                    </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

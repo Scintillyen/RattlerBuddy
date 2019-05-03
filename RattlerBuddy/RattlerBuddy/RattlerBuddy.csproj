@@ -18,6 +18,7 @@
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
     <Folder Include="ViewModel\Commands\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Model\User.cs" />

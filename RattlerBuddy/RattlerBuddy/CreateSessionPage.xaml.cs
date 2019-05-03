@@ -17,6 +17,7 @@ namespace RattlerBuddy
             base.OnAppearing();
 
             datePicker.MinimumDate = DateTime.Now.Date;
+            timePicker.Time = DateTime.Now.TimeOfDay;
 
         }
 

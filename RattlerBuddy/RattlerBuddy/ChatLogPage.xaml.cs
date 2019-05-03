@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using SQLite;
 using RattlerBuddy.Model;
+using System.Linq;
 
 using Xamarin.Forms;
 using RattlerBuddy.ViewModel;
@@ -10,23 +11,23 @@ namespace RattlerBuddy
 {
     public partial class ChatLogPage : ContentPage
     {
-       // HomeVM viewModel;
+        // HomeVM viewModel;
 
         public ChatLogPage()
         {
             InitializeComponent();
 
-           // viewModel = new HomeVM();
-           // BindingContext = viewModel;
+            // viewModel = new HomeVM();
+            // BindingContext = viewModel;
 
         }
 
         void Handle_Tapped(object sender, System.EventArgs e)
         {
             var info = (TextCell)sender;
-            string id = (string)info.Text;
+            Message chat = (Message)info.CommandParameter;
 
-            Navigation.PushAsync(new DisplayMessagePage(id));
+            Navigation.PushAsync(new DisplayMessagePage(chat));
 
         }
 
@@ -37,8 +38,19 @@ namespace RattlerBuddy
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
                 conn.CreateTable<Message>();
-                var messages = conn.Query<Message>("SELECT distinct Reciever_Email FROM Message where Sender_ID = ? OR Reciever_ID = ?", App.User_ID, App.User_ID);
-
+                var sentMessages = conn.Query<Message>("SELECT * FROM Message where Sender_ID = ?", App.User_ID);
+                var recievedMessages = conn.Query<Message>("SELECT * FROM Message where Reciever_ID = ?", App.User_ID);
+                List<Message> messages = new List<Message>();
+                foreach(Message m in sentMessages)
+                {
+                    messages.Add(m);
+                }
+                foreach (Message m in recievedMessages)
+                {
+                    messages.Add(m);
+                }
+                messages = messages.OrderBy(o => o.Timestamp).ToList();
+                //messages = messages.Distinct().ToList();
                 chatLogListView.ItemsSource = messages;
             }
             //BindingContext = viewModel;

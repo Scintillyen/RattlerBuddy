@@ -1,5 +1,5 @@
---cache=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
---sim=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/RattlerBuddy.iOS.app
+--cache=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
+--sim=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/RattlerBuddy.iOS.app
 --executable=RattlerBuddy.iOS
 --debug
 --nolink
@@ -9,10 +9,10 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
+--symbollist=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
+-r=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
@@ -206,7 +206,7 @@
 -r=/Users/scintillyen/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/scintillyen/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/scintillyen/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
+-r=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/RattlerBuddy.iOS.exe
+--root-assembly=/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/RattlerBuddy.iOS.exe
 

@@ -1330,11 +1330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/RattlerBuddy.iOS.csproj",
+      "projectUniqueName": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/RattlerBuddy.iOS.csproj",
       "projectName": "RattlerBuddy.iOS",
-      "projectPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/RattlerBuddy.iOS.csproj",
+      "projectPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/RattlerBuddy.iOS.csproj",
       "packagesPath": "/Users/scintillyen/.nuget/packages/",
-      "outputPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/obj",
+      "outputPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/scintillyen/.config/NuGet/NuGet.Config"
@@ -1348,8 +1348,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj": {
-              "projectPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj"
+            "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj": {
+              "projectPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj"
             }
           }
         }

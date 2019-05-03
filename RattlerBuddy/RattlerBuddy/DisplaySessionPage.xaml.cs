@@ -12,9 +12,10 @@ namespace RattlerBuddy
         {
             InitializeComponent();
         }
-        public DisplaySessionPage( TutorSession session)
+        public DisplaySessionPage(TutorSession session)
         {
             InitializeComponent();
+
             ClassName.Text = session.Class_Name;
             TutorName.Text = session.Tutor_FName +" "+ session.Tutor_LName;
             Date.Text = session.Meeting_Time.ToString();

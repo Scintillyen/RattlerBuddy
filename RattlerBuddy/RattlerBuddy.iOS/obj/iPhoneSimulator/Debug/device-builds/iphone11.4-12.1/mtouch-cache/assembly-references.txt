@@ -1,4 +1,4 @@
-/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/RattlerBuddy.iOS.exe
+/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy.iOS/bin/iPhoneSimulator/Debug/RattlerBuddy.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/System.dll
@@ -21,7 +21,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/scintillyen/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
+/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/bin/Debug/netstandard2.0/RattlerBuddy.dll
 /Users/scintillyen/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/scintillyen/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll

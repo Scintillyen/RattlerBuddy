@@ -7,13 +7,13 @@
                        SeparatorVisibility="None"> 
                             <ListView.ItemTemplate>
                   <DataTemplate>
-                    <TextCell Text="{Binding Message_Text}" Detail="{Binding Reciever_Name}" 
-                              CommandParameter="{Binding Reciever_ID}"/>
+                    <TextCell Text="{Binding Message_Text}" Detail="{Binding Sender_Name}" 
+                              CommandParameter="{Binding}"/>
                   </DataTemplate>
             </ListView.ItemTemplate>
                 </ListView>
             <Entry x:Name="messageEntry" Margin="20" Placeholder="Write a message..." HeightRequest="50"/>
-            <Button x:Name="sendButton" Text="Send" WidthRequest="100" HorizontalOptions="Center"/>
+            <Button x:Name="sendButton" Text="Send" WidthRequest="100" HorizontalOptions="Center" Clicked="Handle_Clicked"/>
          </StackLayout>
     </ContentPage.Content>
 </ContentPage>

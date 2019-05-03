@@ -3857,11 +3857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj",
+      "projectUniqueName": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj",
       "projectName": "RattlerBuddy",
-      "projectPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj",
+      "projectPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/RattlerBuddy.csproj",
       "packagesPath": "/Users/scintillyen/.nuget/packages/",
-      "outputPath": "/Users/scintillyen/Projects/RattlerBuddy/RattlerBuddy/obj",
+      "outputPath": "/Users/scintillyen/Desktop/Safe/RattlerBuddy/RattlerBuddy/RattlerBuddy/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
